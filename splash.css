@@ -1,0 +1,12 @@
+.splash img{
+    width: 150px;
+    justify-items: center;
+}
+
+.splash{
+    background-color: red;
+    width: 100px;
+    margin-left: 124px;
+    margin-top: 374px;
+}
+
