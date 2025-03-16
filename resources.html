@@ -27,8 +27,10 @@
     
 </div>
 
-<div class="mess">Resources Will be <br> posted here</div>
-    
+    <div class="lesson-tab">
+        <span>Week One - Lesson One</span>
+        <button onclick="downloadFile()">Download</button>
+    </div>
 </div>
 
         
@@ -46,8 +48,23 @@ function  tor(){
 
 function  toi(){
     window.location.href = 'info.html';
+    
 }
 
+
+
+
+function downloadFile() {
+    const fileUrl = "HTML_Basics_Presentation.pptx"; // Ensure the file is in the same directory
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = "HTML_Basics_Presentation.pptx";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+    
 </script>
 
 
