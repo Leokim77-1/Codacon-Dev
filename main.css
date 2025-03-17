@@ -1,3 +1,33 @@
+
+.lesson-tab {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-tab button {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.lesson-tab button:hover {
+    background: #27ae60;
+}
+
+
+
+
+
 body{
     background-color: rgb(245, 245, 245);
 }
